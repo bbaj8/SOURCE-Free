@@ -21,7 +21,7 @@ GROUP_SUPPORT = getenv("GROUP_SUPPORT", "QQQLO")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "QQQLO")
 
 # database, decorators, handlers mandatory vars
-MONGODB_URL = getenv("MONGODB_URL")
+MONGODB_URL = getenv("mongodb+srv://hussein87:Hussein87@cluster0.wynpz.mongodb.net/?retryWrites=true&w=majority")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "").split())
 OWNER_ID = list(map(int, getenv("5386549632").split()))
 SUDO_USERS = list(map(int, getenv("5386549632").split()))
