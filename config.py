@@ -5,15 +5,15 @@ admins = {}
 load_dotenv()
 
 # client vars
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
-BOT_TOKEN = getenv("BOT_TOKEN")
-SESSION_NAME = getenv("SESSION_NAME", "session")
+API_ID = int(getenv("12429107"))
+API_HASH = getenv("2c1096dfd767dfdfab961bb2fffe6be3")
+BOT_TOKEN = getenv("5460956456:AAGNuaLQU0hyeAsXKpGcx7RcoDqO6qRPPSk")
+SESSION_NAME = getenv("SESSION_NAME", "AgCPWadB_J78YNwtlMrgOWiRPWFwBnug6tISp6TEZvBqHB1cvbHErzrrcP3xF3XeP5yLIc7WMs96BhDDTAosZND6TYM-2FA3mICJv0KgKmV4hVfP5gCTTX6088ll2esv_Q0jpaBlWx8fzO688KzN7dUEMuefP7S8hYUOgk-7zCFMEQ4qzd5ZkF2VJSeMcs8ZDw_2PoHFouIUNqNIRJfVsMGPgWB3J-JQUIXQUjI3mp1P2j2Rt7UQFct2bO_0QumvaflPhMLm-Xodq15EgmgpDyMWN5p4FmqprmOikPCVcZJzFXQv_05uZKcERKaiGlIMFCOtCURAPNGezhdGgTsVNFr8AAAAATLkklEA")
 
 # mandatory vars
-OWNER_USERNAME = getenv("OWNER_USERNAME")
-ALIVE_NAME = getenv("ALIVE_NAME")
-BOT_USERNAME = getenv("BOT_USERNAME")
+OWNER_USERNAME = getenv("5386549632")
+ALIVE_NAME = getenv("5386549632")
+BOT_USERNAME = getenv("Iwjsiwbot")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/bbaj8/SOURCE-Freedom")
 UPSTREAM_BRANCH = getenv("UPSTREM_BRANCH", "main")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
@@ -23,8 +23,8 @@ UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "QQQLO")
 # database, decorators, handlers mandatory vars
 MONGODB_URL = getenv("MONGODB_URL")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "").split())
-OWNER_ID = list(map(int, getenv("OWNER_ID").split()))
-SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
+OWNER_ID = list(map(int, getenv("5386549632").split()))
+SUDO_USERS = list(map(int, getenv("5386549632").split()))
 
 # image resources vars
 IMG_1 = getenv("IMG_1", "https://te.legra.ph/file/2a726c634dbc3b9e8f451.png")
